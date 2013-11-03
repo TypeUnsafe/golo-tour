@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>spa</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+    <link rel="stylesheet" href="bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap3/css/bootstrap-theme.min.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>Golo powered</h1>
+
+        <div id="humans_list"></div>
+
+
+    </div>
+
+    <script src="js/vendors/jquery-1.9.1.min.js"></script>
+    <script src="js/vendors/underscore-min.js"></script>
+    <script src="js/vendors/backbone-min.js"></script>
+    <script src="bootstrap3/js/bootstrap.min.js"></script>
+    <script src="js/extensions.js"></script>
+
+    <script>
+        window.Human = Backbone.Model.extend({
+            urlRoot:"/humans"
+        });
+
+        window.Humans = Backbone.Collection.extend({
+            url:"/humans", model:Human
+        });
+
+        window.HumansList = Backbone.View.extend({
+            el:"#humans_list",
+            tpl : function(){/*
+             <ul>
+             <% _.each(humans, function(human){ %>
+             <li><%= human.firstName %> <%= human.lastName %></li>
+             <%});%>
+             </ul>
+             */},
+            initialize : function() {
+                this.template = _.template(this.getTpl());
+                this.listenTo(this.collection, 'all', this.render)
+                this.listenTo(this.collection, 'change', this.render)
+            },
+            render : function() {
+                var html = this.template({humans : this.collection.toJSON()});
+                this.$el.html(html);
+                return this;
+            }
+        });
+
+    </script>
+</body>
+</html>
