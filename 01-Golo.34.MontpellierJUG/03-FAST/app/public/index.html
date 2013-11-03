@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Montpellier JUG</title>
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/baby-blue.css">
+<body>
+
+<div class="content pure-u" id="layout">
+
+    <div class="header pure-u-1">
+        <h1 class="pure-u-1">Montpellier JUG</h1>
+        <h2 class="pure-u">My little web stack</h2>
+
+    </div>
+
+    <div class="content pure-u-1">
+
+        <h2 class="content-subhead">Add new Human</h2>
+
+        <!-- Formulaire -->
+
+        <div class="pure-form" id="human_form">
+            <input type="text" data-value="human.firstName">
+            <input type="text" data-value="human.lastName">
+            <button class="pure-button notice">add</button>
+        </div>
+
+        <h2 class="content-subhead">Humans List</h2>
+
+        <!-- Grille -->
+
+        <table class="pure-table pure-table-bordered" id="humans_list">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr data-each-human="humans.models">
+                <td data-text="human.id"></td>
+                <td data-text="human.firstName"></td>
+                <td data-text="human.lastName"></td>
+                <td><button data-id="human.id" class="pure-button notice">delete</button></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+    <script src="js/vendors/jquery-1.9.1.min.js"></script>
+    <script src="js/vendors/underscore-min.js"></script>
+    <script src="js/vendors/backbone-min.js"></script>
+    <script src="js/vendors/rivets.min.js"></script>
+
+    <script src="js/rivets.configure.js"></script>
+    <script src="js/namespace.js"></script>
+    <script src="js/models.js"></script>
+    <script src="js/views.js"></script>
+    <script src="js/application.js"></script>
+
+</body>
+</html>

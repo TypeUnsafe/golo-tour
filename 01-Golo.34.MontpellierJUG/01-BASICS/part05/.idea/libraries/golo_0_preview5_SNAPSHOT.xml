@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="golo-0-preview5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../golo-lang/target/golo-0-preview5-SNAPSHOT-distribution/golo-0-preview5-SNAPSHOT/lib/golo-0-preview5-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
