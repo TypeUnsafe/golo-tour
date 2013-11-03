@@ -1,0 +1,9 @@
+<h3>Humans</h3>
+
+<ul><% _.each(humans, function(human){ %>
+    <li>
+        <a class="select" href="#<%= human.id %>">
+            <%= human.id %></a> : <%= human.firstName %> <%= human.lastName %>
+        <a class="delete" href="#<%= human.id %>">delete</a>
+    </li>
+<%});%></ul>
