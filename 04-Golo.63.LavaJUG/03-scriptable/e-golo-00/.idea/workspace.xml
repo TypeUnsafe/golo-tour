@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/main.golo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models.humans.golo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/js/extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/js/vendors/backbone-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/js/vendors/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/js/vendors/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/e-golo.1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/golo/resources/helper.golo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/golo/resources/redis.golo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/golo/tools/Module.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/golo/tools/ScriptsLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/json/file.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e-golo.iml" afterPath="$PROJECT_DIR$/e-golo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/index.html" afterPath="$PROJECT_DIR$/app/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="e-golo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383906766299" ignored="false" />
+    <file path="/a.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383812688340" ignored="false" />
+    <file path="/sample.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381584259308" ignored="false" />
+    <file path="/pom.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381589519534" ignored="false" />
+    <file path="$PROJECT_DIR$/src/Application/java.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381585321209" ignored="false" />
+    <file path="/Application.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382930475865" ignored="false" />
+    <file path="/main.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026141985" ignored="false" />
+    <file path="/Json.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381589855860" ignored="false" />
+    <file path="/helper.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381589885296" ignored="false" />
+    <file path="/redis.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381590043741" ignored="false" />
+    <file path="/Main.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935573357" ignored="false" />
+    <file path="/models.humans.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1381595337387" ignored="false" />
+    <file path="/index.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383813239054" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/fr/insalyon/citi/golo/compiler/parser/GoloASTNode.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382066485273" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/fr/insalyon/citi/golo/runtime/OperatorSupport.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382066485273" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/gololang/Predefined.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383119119136" ignored="false" />
+    <file path="/Predefined.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382691452355" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/gololang/Animal/java.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382066668593" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/gololang/Animal.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383076546712" ignored="false" />
+    <file path="/Animal.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382691492450" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/gololang/Panda.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383076598512" ignored="false" />
+    <file path="/Panda.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383076598025" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/gololang/Tigre.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383076574390" ignored="false" />
+    <file path="/Tigre.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383076573640" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/golo/console.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383076865249" ignored="false" />
+    <file path="/console.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382691562780" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/golo/standard-augmentations.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383119119136" ignored="false" />
+    <file path="/standard-augmentations.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383855202606" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/Token.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/ASTToplevelDeclaration.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/JJTGoloParserState.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/GoloParserTreeConstants.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/ASTMatch.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/ASTerror.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/Node.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/SimpleNode.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/GoloParserTokenManager.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/ASTCompilationUnit.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/GoloParser.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/jjtree/fr/insalyon/citi/golo/compiler/parser/GoloParserVisitor.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/ParseException.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/GoloParserConstants.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/TokenMgrError.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/generated-sources/javacc/fr/insalyon/citi/golo/compiler/parser/JavaCharStream.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382067203667" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/test/resources/for-test/bootstrapped-standard-augmentations.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057701133" ignored="false" />
+    <file path="/bootstrapped-standard-augmentations.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382078266545" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/test/java/gololang/StandardAugmentationsTest.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057701133" ignored="false" />
+    <file path="/StandardAugmentationsTest.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382078376839" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/Animal/java.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382670778023" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/Animal.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382670871764" ignored="false" />
+    <file path="/fragment.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382670885458" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/golo-maven-plugin/target/classes/META-INF/maven/org.golo-lang/golo-maven-plugin/plugin-help.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382672184744" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/golo-maven-plugin/target/classes/META-INF/maven/plugin.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/src/Application.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382933235437" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/index.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383813173079" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/vendors/backbone-min.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934235956" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/bootstrap3/js/bootstrap.min.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934235956" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/vendors/underscore-min.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934235956" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/main.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934316374" ignored="false" />
+    <file path="/Human.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935216123" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/models/Human.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935216480" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/models/Humans.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934440063" ignored="false" />
+    <file path="/Humans.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934422815" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/application/Application.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382941139361" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/org.k33g/lazy.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934625965" ignored="false" />
+    <file path="/Application.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934734164" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/views/ComponentFormView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382934879639" ignored="false" />
+    <file path="/ComponentFormView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935285062" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/views/HumanFormView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026522376" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/views/HumansView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935066423" ignored="false" />
+    <file path="/HumansView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383025933520" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/templates/human.form.tpl.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935314953" ignored="false" />
+    <file path="/human.form.tpl.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935314953" ignored="false" />
+    <file path="/humans.tpl.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026030931" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/app/public/js/templates/humans.tpl.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382935364485" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-01/src/Main.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383813092507" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/app/main.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383812884897" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/src/Application.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382938491275" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/app/public/js/application/Application.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1382941266527" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/app/public/js/templates/humans.tpl.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026088491" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/app/public/js/views/HumansView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026192775" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/app/public/js/views/HumanFormView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026449384" ignored="false" />
+    <file path="/HumanFormView.js" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383026447794" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/pom.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.runtime.ClosureReferenceSupportTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.parser.ParserSanityTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.concurrent.workers.WorkersTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.utils.StringUnescapingTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.DynamicObjectTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.runtime.MethodInvocationSupportTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/TEST-TestSuite.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.TupleTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.CompilerTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.EvaluationEnvironmentTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.runtime.ClosureCallSupportTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.IntRangeTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.ir.ReferenceTableTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.LongRangeTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/testng-results.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.CompileAndRunTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.PackageAndClassTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.runtime.FunctionCallSupportTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.runtime.PrimitiveArrayIteratorTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-gololang.TemplateEngineTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.runtime.OperatorSupportTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.ParseTreeToGoloIrAndVisitorsTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/Command line suite/Command line test.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/target/surefire-reports/junitreports/TEST-fr.insalyon.citi.golo.compiler.utils.NamingUtilsTest.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383057215873" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_demo_golo/01-cours/10.compilation/pi/.idea/workspace.xml" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383077768819" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/test/java/gololang/PredefinedTest.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383062354365" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/src/main/java/gololang/EvaluationEnvironment.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383062354365" ignored="false" />
+    <file path="$PROJECT_DIR$/../golo-lang/doc/predefined-functions.asciidoc" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383062354365" ignored="false" />
+    <file path="$PROJECT_DIR$/../e-golo-02/app/public/index.html" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383813239054" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Public/golo-lang/src/main/java/gololang/Predefined.java" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383853291454" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Public/golo-lang/src/main/golo/standard-augmentations.golo" changelist="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" time="1383855300479" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="e-golo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="36" selection-start="2529" selection-end="2587" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.16887417">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Json.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/json/Json.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="30" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/golo/tools/Module.java" />
+        <option value="$PROJECT_DIR$/src/golo/tools/ScriptsLoader.java" />
+        <option value="$PROJECT_DIR$/src/Json.java" />
+        <option value="$PROJECT_DIR$/src/json/file.txt" />
+        <option value="$PROJECT_DIR$/src/json/Json.java" />
+        <option value="$PROJECT_DIR$/src/golo/resources/helper.golo" />
+        <option value="$PROJECT_DIR$/app/models.humans.golo" />
+        <option value="$PROJECT_DIR$/src/golo/resources/redis.golo" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/app/main.golo" />
+        <option value="$PROJECT_DIR$/src/Application.java" />
+        <option value="$PROJECT_DIR$/app/public/index.html" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo-00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo-00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-golo-00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="e-golo" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ef1b4df-b82d-447d-a37d-0a6f0b91a6b0" name="Default" comment="" />
+      <created>1381583932739</created>
+      <updated>1381583932739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="778" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294412" sideWeight="0.73462784" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26537216" sideWeight="0.500417" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233387" sideWeight="0.7948718" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20512821" sideWeight="0.49958298" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/json/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-golo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="36" selection-start="2529" selection-end="2587" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.16887417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>e-golo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

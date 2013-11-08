@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.golo-lang:golo:0-preview8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/golo-lang/golo/0-preview8-SNAPSHOT/golo-0-preview8-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/golo-lang/golo/0-preview8-SNAPSHOT/golo-0-preview8-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/golo-lang/golo/0-preview8-SNAPSHOT/golo-0-preview8-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
