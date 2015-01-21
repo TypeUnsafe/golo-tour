@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <h1>sparkee [Demo]</h1>
+
+  <form>
+    <input type="text" v-model="human.firstName">
+    <input type="text" v-model="human.lastName">
+    <button v-on="click: onClick">add</button>
+  </form>
+
+  <ul>
+    <li v-repeat="human: humans">
+      {{human.id}} {{human.firstName}} {{human.lastName}}
+    </li>
+  </ul>
+
+  <script src="js/vue.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+
+  <script>
+
+    var formVue = new Vue({
+      el: "form",
+      data: {
+        human: {
+          firstName: "John", lastName: "Doe"
+        }
+      },
+      methods: {
+        onClick: function(e) {
+          e.preventDefault();
+          var that = this
+          $.ajax({type:"POST", url:"/humans", data:JSON.stringify(this.human), dataType:"json"})
+            .done(function(data) {
+              console.log(data)
+              that.human = {firstName: "John", lastName: "Doe"};
+            });
+        }
+      }
+    });
+
+    var humans = [];
+
+    var listVue = new Vue({
+      el: "ul",
+      data: {
+        humans: []
+      }
+
+    });
+
+    setInterval(function () {
+      $.ajax({type:"GET", url:"/humans"}).done(function(data) {
+        listVue.humans = data;
+      })
+    }, 500);
+
+
+  </script>
+</body>
+</html>
